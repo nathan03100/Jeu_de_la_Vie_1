@@ -30,10 +30,6 @@ class Gui(threading.Thread, QWidget):
         self.grid = []
         self.case = []
         self.case1 = []
-        self.row = 0
-        self.column = 0
-        self.ligne = 0
-        self.colonne = 0
         n = -1
         p = -1
         self.b=0
